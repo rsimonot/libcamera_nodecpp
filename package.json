@@ -1,0 +1,35 @@
+{
+  "name": "libcamera_nodecpp",
+  "version": "1.0.0",
+  "description": "Requiered package to use a web app to control RPI Camera",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsimonot/libcamera_nodecpp.git"
+  },
+  "keywords": [
+    "RPI",
+    "RPI4",
+    "CM4",
+    "libcamera",
+    "Node-API",
+    "nodeapi"
+  ],
+  "author": "Robin Simonot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsimonot/libcamera_nodecpp/issues"
+  },
+  "homepage": "https://github.com/rsimonot/libcamera_nodecpp#readme",
+  "dependencies": {
+    "node-addon-api": "^4.3.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^8.4.1"
+  }
+}
