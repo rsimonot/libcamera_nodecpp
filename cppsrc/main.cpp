@@ -1,4 +1,3 @@
-#include <napi.h>
 #include "cam.hpp"
 
 Napi::Object InitAll(Napi::Env env, Napi::Object exports) {
