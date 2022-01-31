@@ -5,7 +5,7 @@
   "main": "index.js",
   "gypfile": true,
   "scripts": {
-    "build": "clear && node-gyp rebuild",
+    "build": "node-gyp rebuild",
     "clean": "node-gyp clean",
     "install": "node-gyp rebuild"
   },

@@ -12,7 +12,9 @@
             "include"
         ],
         'libraries': [
-            "<!(pwd)/include/libcamera.a"
+            "<!(pwd)/include/libcamera.a",
+            "<!(pwd)/include/gnutls.a",
+            "<!(pwd)/include/nettle.a"
         ],
         'dependencies': [
             "<!(node -p \"require('node-addon-api').gyp\")"
